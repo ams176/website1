@@ -1,0 +1,170 @@
+* {
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: darkgrey;
+
+ }
+
+ 
+
+#nav_bar {
+
+    background-image: url(rem-1.jpg);
+    height: 105px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color:grey;
+    text-decoration: underline;
+}
+
+.nav_link {
+
+    background-color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding:3px;
+        border: black;
+        border-style: solid;
+        text-decoration: none;
+    }
+
+
+
+
+
+#page_top {
+
+    background-color: black;
+    font-style: italic;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+
+    background-color: black;
+    font-size: 80px;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+} 
+
+@keyframes pulse {
+    from {color: darkred;}
+    to {color:red;}
+
+}
+
+
+h2 {
+
+    color:black;
+    font-size: 45px;
+    font-weight: lighter;
+    text-align: left;
+    margin: 200px 100px 100px 100px;
+} 
+
+
+p {
+    
+    font-size: 45px;
+}
+
+
+img {
+
+    width: 50%;
+    padding: 100px;
+}
+
+
+.member_list{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.member_image{
+
+    width: 400px;
+    padding: 30px;
+    border: black;
+    border-style: solid;
+    margin: 120px
+}
+
+
+.member_text{
+
+    width: 20%;
+    font-size: 45px;
+    color:darkred;
+    display: flex;
+}
+
+
+.album_list{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.album_cover{
+
+    width: 300px;
+    padding: 30px;
+    border: black;
+    border-style: solid;
+    margin: 80px;
+}
+
+
+.album_text{
+
+    width: 30%;
+    font-size: 45px;
+    color:darkred;
+    display: flex;
+}
+
+
+#return{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background-color: white;
+    padding: 3px;
+    border: black;
+    border-style: solid;
+}
+
+
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
